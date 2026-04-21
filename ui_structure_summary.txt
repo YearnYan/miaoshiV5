@@ -1,0 +1,467 @@
+
+=== 01_Splash (HAHA3) ===
+- frame 01_Splash [HAHA3] | size=375x812
+  - ref s1sb [pNlrk] | ref=J9Teq
+  - frame s1center [8YNN5] | size=fill_containerxfill_container
+    - frame s1logo [f0fWg] | size=120x120
+      - icon_font  [pUUE0] | size=56x56
+    - text  [R0imT] | text='秒视单词'
+    - text  [zzuTy] | text='极限闪视挑战'
+    - frame s1dots [rFg5r]
+      - ellipse  [RyDJO] | size=8x8
+      - ellipse  [sIzAG] | size=8x8
+      - ellipse  [ciyzW] | size=8x8
+  - frame s1footer [2qEx2] | size=fill_containerxNone
+    - text  [lvCMV] | text='引擎启动中 · 词库校验'
+    - text  [pJZOm] | text='v2.0 · 2026'
+
+=== 02_Login (CEiWR) ===
+- frame 02_Login [CEiWR] | size=375x812
+  - ref s2sb [Qbwso] | ref=J9Teq
+  - frame s2content [Y6QQX] | size=fill_containerxfill_container
+    - frame s2header [32kCD]
+      - icon_font  [XATu0] | size=22x22
+      - text  [x6urK] | text='秒视单词'
+    - frame s2hero [78rGX] | size=fill_containerxNone
+      - text  [wi0dx] | text='登录以继续'
+      - text  [V1Fav] | text='请先授权登录'
+      - text  [wdFAa] | text='登录后才能同步词汇量 / 成绩与 VIP 权益', size=fill_containerxNone
+    - frame s2card [msMa9] | size=fill_containerxNone
+      - frame s2row [smJTc]
+    - frame s2btn [IzKy4] | size=fill_containerx56
+      - icon_font  [8CP2Z] | size=18x18
+      - text  [mkcpb] | text='微信一键登录'
+    - frame s2agree [Xy0bf] | size=fill_containerxNone
+      - frame s2chk [fD9Mn] | size=16x16
+      - text  [bmCHY] | text='我已阅读并同意《用户协议》《隐私政策》', size=fill_containerxNone
+    - frame s2retry [YEovl] | size=fill_containerxNone
+      - icon_font  [M2ozB] | size=12x12
+      - text  [jOPzj] | text='登录失败？点此重试'
+
+=== 03_Home (874RE) ===
+- frame 03_Home [874RE] | size=375x812
+  - ref s3sb [u750k] | ref=J9Teq
+  - frame s3content [J2wFo] | size=fill_containerxfill_container
+    - frame s3top [4Phk3] | size=fill_containerxNone
+      - frame s3logo [OwuHf]
+      - frame s3status [hCqhw]
+    - frame s3hero [z7nP7] | size=fill_containerxNone
+      - text  [hvkZP] | text='极限闪视词汇挑战'
+      - text  [VGsJ9] | text='秒视单词'
+      - text  [jsyuJ] | text='30毫秒极限闪视 · 你真能看清吗？'
+    - frame s3stats [PjBDF] | size=fill_containerxNone
+      - frame s3stat1 [aurbe] | size=fill_containerxNone
+      - frame s3stat2 [TunqV] | size=fill_containerxNone
+      - frame s3stat3 [C4uqg] | size=fill_containerxNone
+    - frame s3setup [BO6io] | size=fill_containerxNone
+      - frame s3diff [I72ju] | size=fill_containerxNone
+      - frame s3lib [D87yX] | size=fill_containerxNone
+    - frame s3cta [AoET9] | size=fill_containerx60
+      - icon_font  [PtGSl] | size=18x18
+      - text  [aLbpK] | text='开始挑战'
+    - frame s3quota [si4kZ] | size=fill_containerxNone
+      - icon_font  [xQYRg] | size=12x12
+      - text  [sLT8B] | text='免费额度剩余 72 / 100 词'
+  - ref s3tabbar [EIlTZ] | ref=uOtf2
+
+=== 04_DifficultyModal (5IaqR) ===
+- frame 04_DifficultyModal [5IaqR] | size=375x812
+  - rectangle s4dim [Kt3gy] | size=375x812
+  - frame s4sheet [kootk] | size=fill_containerxNone
+    - frame s4head [e6rbT] | size=fill_containerxNone
+      - frame s4headL [SanCN]
+      - icon_font  [IgGiY] | size=20x20
+    - text s4hint [h05xn] | text='默认为极限档（30毫秒）。局内可暂停后切换，实时生效于下一词。', size=fill_containerxNone
+    - frame s4list [o8kEq] | size=fill_containerxNone
+      - frame s4d1 [4QRv5] | size=fill_containerxNone
+      - frame s4d2 [uOXUH] | size=fill_containerxNone
+      - frame s4d3 [sTImK] | size=fill_containerxNone
+      - frame s4d4 [jAcu6] | size=fill_containerxNone
+    - frame s4confirm [o64Qq] | size=fill_containerx52
+      - text  [OM4Ib] | text='应用难度'
+
+=== 05_LibraryPicker (lBdVl) ===
+- frame 05_LibraryPicker [lBdVl] | size=375x812
+  - ref s5sb [aDR5X] | ref=J9Teq
+  - frame s5content [tArqI] | size=fill_containerxfill_container
+    - frame s5nav [BY4Xl] | size=fill_containerxNone
+      - frame s5back [cMNBz]
+      - text  [zZ9aF] | text='选择词库'
+      - text  [8rzPs]
+    - frame s5search [osTJ6] | size=fill_containerx42
+      - icon_font  [c5Slw] | size=16x16
+      - text  [uAJru] | text='搜索词库 · 共 12 本可用'
+    - frame s5list [krpgt] | size=fill_containerxNone
+      - frame s5i1 [a3Z8Z] | size=fill_containerxNone
+      - frame s5i2 [0HRNe] | size=fill_containerxNone
+      - frame s5i3 [U7kCO] | size=fill_containerxNone
+      - frame s5i4 [v5vRF] | size=fill_containerxNone
+      - frame s5i5 [pnScK] | size=fill_containerxNone
+      - frame s5i6 [FjXaH] | size=fill_containerxNone
+
+=== 06_Game_Flash (lzjNs) ===
+- frame 06_Game_Flash [lzjNs] | size=375x812
+  - ref s6sb [Nvzka] | ref=J9Teq
+  - frame s6content [k674W] | size=fill_containerxfill_container
+    - frame s6topbar [kXT32] | size=fill_containerxNone
+      - frame s6pause [30LdD] | size=40x40
+      - frame s6tag [oNwPk]
+      - frame  [BgW3s] | size=40x40
+    - ref s6hud [3LErX] | ref=ZEyrL, size=fill_containerxNone
+    - frame s6progress [4btfs] | size=fill_containerx4
+      - frame  [Gb43e] | size=200x4
+    - frame s6stage [bQy5n] | size=fill_containerxfill_container
+      - frame s6flash [6eYUC] | size=320x200
+    - frame s6hint [vMlPx] | size=fill_containerxNone
+      - icon_font  [X8K1C] | size=12x12
+      - text  [M0F8P] | text='集中注意力，选项即将出现'
+
+=== 07_Game_Options (AGIjF) ===
+- frame 07_Game_Options [AGIjF] | size=375x812
+  - ref s7sb [A4txa] | ref=J9Teq
+  - frame s7content [jpmTE] | size=fill_containerxfill_container
+    - frame s7topbar [tAniE] | size=fill_containerxNone
+      - frame s7pause [nwMNb] | size=40x40
+      - frame s7tag [TYuDO]
+      - frame  [uKikN] | size=40x40
+    - ref s7hud [Vsw1n] | ref=ZEyrL, size=fill_containerxNone
+    - frame s7question [YE9Bc] | size=fill_containerxNone
+      - text  [lds9l] | text='第 7 题 / 共 50 题 · 请选择释义'
+      - text  [deLW0] | text='perseverance'
+      - text  [jIbFP] | text='刚才那个单词是什么意思？'
+    - frame s7opts [JApMG] | size=fill_containerxNone
+      - ref s7o1 [czTUb] | ref=Jyamt, size=fill_containerxNone
+      - ref s7o2 [Pr1TK] | ref=Jyamt, size=fill_containerxNone
+      - ref s7o3 [kjkXx] | ref=Jyamt, size=fill_containerxNone
+      - ref s7o4 [F71Tt] | ref=Jyamt, size=fill_containerxNone
+    - frame s7timer [VUUYX] | size=fill_containerx6
+      - frame  [vrKYP] | size=220x6
+    - frame s7foot [OJtd2] | size=fill_containerxNone
+      - icon_font  [Ra6Jb] | size=12x12
+      - text  [O3Bna] | text='5 秒内 · 快速作答可额外加分'
+
+=== 08_Game_Correct (R5pWs) ===
+- frame 08_Game_Correct [R5pWs] | size=375x812
+  - ref s8sb [UdfCi] | ref=J9Teq
+  - frame s8content [hZMZm] | size=fill_containerxfill_container
+    - frame s8topbar [SdMLo] | size=fill_containerxNone
+      - frame  [iTBBL] | size=40x40
+      - frame s8tag [Aedpn]
+      - frame  [4ycY1] | size=40x40
+    - ref s8hud [F8S19] | ref=ZEyrL, size=fill_containerxNone
+    - frame s8feedback [BYDwS] | size=fill_containerxfill_container
+      - frame s8icon [oPAf8] | size=96x96
+      - frame s8titles [iuoJz]
+      - frame s8panel [YOSC1] | size=315xNone
+      - frame s8next [ysfbn]
+
+=== 09_Game_Wrong (NV9tX) ===
+- frame 09_Game_Wrong [NV9tX] | size=375x812
+  - ref s9sb [h2T62] | ref=J9Teq
+  - frame s9content [Dwy9S] | size=fill_containerxfill_container
+    - frame s9topbar [LGuX0] | size=fill_containerxNone
+      - frame  [Qjwn8] | size=40x40
+      - frame s9tag [bCiff]
+      - frame  [Evh3G] | size=40x40
+    - ref s9hud [4134I] | ref=ZEyrL, size=fill_containerxNone
+    - frame s9feedback [ZfEcD] | size=fill_containerxfill_container
+      - frame s9icon [YsrGa] | size=96x96
+      - frame s9titles [okyZf]
+      - frame s9panel [kQL6M] | size=315xNone
+      - frame s9next [UEINe]
+
+=== 10_Pause_Modal (Fz2Z0) ===
+- frame 10_Pause_Modal [Fz2Z0] | size=375x812
+  - rectangle s10dim [OJhbp] | size=375x812
+  - ref s10sb [EUAB6] | ref=J9Teq
+  - frame s10modal [gnCSM] | size=315xNone
+    - frame s10head [mycsZ] | size=fill_containerxNone
+      - frame  [gnCUs] | size=48x48
+      - text  [I2HmW] | text='本局已暂停'
+      - text  [ApZ4T] | text='已暂停'
+      - text  [tipih] | text='难度不重置，继续即可保持连击', size=fill_containerxNone
+    - frame s10stats [tnwde] | size=fill_containerxNone
+      - frame s10s1 [v76FT]
+      - frame s10s2 [i1CeX]
+      - frame s10s3 [BHm8W]
+    - frame s10btns [9mEmI] | size=fill_containerxNone
+      - frame s10cont [QkjBp] | size=fill_containerx50
+      - frame s10diff [265vd] | size=fill_containerx44
+      - frame s10quit [lDepU] | size=fill_containerx44
+
+=== 11_Downgrade_Modal (IufbS) ===
+- frame 11_Downgrade_Modal [IufbS] | size=375x812
+  - rectangle s11dim [iyL3F] | size=375x812
+  - ref s11sb [vUAOV] | ref=J9Teq
+  - frame s11modal [uGbqB] | size=315xNone
+    - frame  [Ig9aV] | size=52x52
+      - icon_font  [Gy9Ri] | size=26x26
+    - text  [eoGWS] | text='建议调整'
+    - text  [W7UhX] | text='是否降低难度？'
+    - text  [FiR0Y] | text='前 10 题正确率仅 20%（2/10），建议切换到更温和节奏帮助熟悉词汇。', size=fill_containerxNone
+    - frame s11opts [P3Vkh] | size=fill_containerxNone
+      - frame s11o1 [8DMal] | size=fill_containerxNone
+      - frame s11o2 [2j7qD] | size=fill_containerxNone
+    - frame s11bottom [xjmRw] | size=fill_containerxNone
+      - frame s11keep [rMyA9] | size=fill_containerx44
+      - frame s11apply [MgBiX] | size=fill_containerx44
+
+=== 12_Result (r9OdK) ===
+- frame 12_Result [r9OdK] | size=375x812
+  - ref s12sb [dzf3h] | ref=J9Teq
+  - frame s12content [Du40P] | size=fill_containerxfill_container
+    - frame s12nav [Ls7AZ] | size=fill_containerxNone
+      - text  [LrmSp] | text='// round_report'
+      - text  [hNWGO] | text='本局结算'
+      - icon_font  [Y7TAg] | size=18x18
+    - frame s12rank [RN09s] | size=fill_containerxNone
+      - text  [22yyB] | text='本局评级'
+      - text  [xPBrL] | text='超神'
+      - text  [bQFE1] | text='超凡表现 · 排名前 5%'
+      - frame s12ranks [ZAOd2] | size=fill_containerxNone
+      - frame s12rkHint [b3FDK] | size=fill_containerxNone
+    - frame s12stats [lPWSv] | size=fill_containerxNone
+      - frame s12s1 [iS0pp] | size=fill_containerxNone
+      - frame s12s2 [peDLx] | size=fill_containerxNone
+      - frame s12s3 [8EAq3] | size=fill_containerxNone
+    - frame s12detail [blTlz] | size=fill_containerxNone
+      - frame s12r1 [Z911D] | size=fill_containerxNone
+      - frame s12r2 [61Mfp] | size=fill_containerxNone
+      - frame s12r3 [3nrf9] | size=fill_containerxNone
+    - frame s12btns [z4g1U] | size=fill_containerxNone
+      - frame s12cta [AqYfb] | size=fill_containerx54
+      - frame s12row2 [YK7dQ] | size=fill_containerxNone
+
+=== 13_SharePoster (MJBSd) ===
+- frame 13_SharePoster [MJBSd] | size=375x812
+  - rectangle s13dim [TIvjM] | size=375x812
+  - ref s13sb [nqC8b] | ref=J9Teq
+  - frame s13close [8cyof] | size=36x36
+    - icon_font  [0DvrN] | size=16x16
+  - frame s13poster [l7JQN] | size=300xNone
+    - frame s13top [n4NZ3] | size=fill_containerxNone
+      - frame s13logo [VpKp7]
+      - text  [uttgH] | text='// flash_blitz'
+    - frame s13main [Aw9HE] | size=fill_containerxNone
+      - text  [JQ6H1] | text='超神'
+      - text  [0ZKYZ] | text='本局得分'
+      - text  [rZltS] | text='9,820'
+    - frame s13stats [7VCx2] | size=fill_containerxNone
+      - frame s13p1 [vFhX7] | size=fill_containerxNone
+      - frame s13p2 [O44O5] | size=fill_containerxNone
+      - frame s13p3 [b16gk] | size=fill_containerxNone
+    - frame s13ranks [dZaWE] | size=fill_containerxNone
+      - frame s13rkTitle [VIPY6] | size=fill_containerxNone
+      - frame s13rkRow [b9viC] | size=fill_containerxNone
+      - frame s13rkTag [c1rNy] | size=fill_containerxNone
+    - frame s13qr [t05u4] | size=fill_containerxNone
+      - frame s13qrBox [QsH9t] | size=62x62
+      - frame s13qrT [2RWuc] | size=fill_containerxNone
+  - frame s13actions [Cxkb0] | size=315x56
+    - frame s13saveBtn [of4C3] | size=fill_containerxfill_container
+      - icon_font  [QQSSk] | size=14x14
+      - text  [6mgF5] | text='保存到相册'
+    - frame s13sendBtn [a2o6r] | size=fill_containerxfill_container
+      - icon_font  [DEmlL] | size=14x14
+      - text  [9Cyxi] | text='分享给好友'
+
+=== 14_Paywall (hJVrp) ===
+- frame 14_Paywall [hJVrp] | size=375x812
+  - ref s14sb [iydQZ] | ref=J9Teq
+  - frame s14content [nAJFe] | size=fill_containerxfill_container
+    - frame s14nav [a7GAq] | size=fill_containerxNone
+      - icon_font  [B3TtA] | size=20x20
+      - text  [3Rko8] | text='解锁训练'
+      - icon_font  [pbwcv] | size=18x18
+    - frame s14warn [UUPPX] | size=fill_containerxNone
+      - frame s14wrow [7O4GU]
+      - text  [IGwnz] | text='你已训练 100 / 100 词 · 进度：大学英语六级 第 27/50 题', size=fill_containerxNone
+    - frame s14hero [WaXDR] | size=fill_containerxNone
+      - text  [FbS9O] | text='选择方案'
+      - text  [FmStp] | text='继续挑战？'
+    - frame s14plans [agkdN] | size=fill_containerxNone
+      - frame s14p1 [OwUBi] | size=fill_containerxNone
+      - frame s14p2 [f9SMx] | size=fill_containerxNone
+      - frame s14p3 [LK6vz] | size=fill_containerxNone
+    - frame s14cta [QqXbI] | size=fill_containerx54
+      - text  [PNiKV] | text='¥9.9 立即解锁'
+    - frame s14foot [pRAbQ] | size=fill_containerxNone
+      - text  [zLPBj] | text='恢复购买'
+      - text  [ulKpF] | text='·'
+      - text  [JuYTI] | text='服务协议'
+
+=== 15_PayConfirm (cQ3qi) ===
+- frame 15_PayConfirm [cQ3qi] | size=375x812
+  - rectangle s15dim [DTswl] | size=375x812
+  - ref s15sb [yBzAu] | ref=J9Teq
+  - frame s15sheet [MmmT4] | size=fill_containerxNone
+    - frame s15head [otjVO] | size=fill_containerxNone
+      - text  [NT4Xg] | text='微信支付'
+      - icon_font  [Xg2kZ] | size=18x18
+    - frame s15amount [bUhWF] | size=fill_containerxNone
+      - text  [viiTc] | text='付款金额'
+      - frame s15amt [7cJDP]
+    - frame s15rows [zKoDm] | size=fill_containerxNone
+      - frame s15rw1 [rUy0C] | size=fill_containerxNone
+      - frame s15rw2 [sE9lc] | size=fill_containerxNone
+      - frame s15rw3 [8ARMD] | size=fill_containerxNone
+    - frame s15pay [5U88b] | size=fill_containerx52
+      - icon_font  [8Losv] | size=16x16
+      - text  [ip5sr] | text='立即支付 ¥9.90'
+    - frame s15cancel [8BXPG] | size=fill_containerxNone
+      - text  [361zX] | text='取消支付'
+
+=== 16_PaySuccess (k273O) ===
+- frame 16_PaySuccess [k273O] | size=375x812
+  - ref s16sb [5iBmh] | ref=J9Teq
+  - frame s16content [qHKX3] | size=fill_containerxfill_container
+    - frame s16icon [9JnTW] | size=120x120
+      - icon_font  [1ALmE] | size=64x64
+    - frame s16titles [pep3q]
+      - text  [OFMsI] | text='// payment_confirmed'
+      - text  [dKycq] | text='支付成功'
+      - text  [F9mnB] | text='月卡权益已发放 · 30 天全量词库解锁'
+    - frame s16card [nfAZB] | size=fill_containerxNone
+      - frame s16r1 [G8gqY] | size=fill_containerxNone
+      - frame s16r2 [N5Hd1] | size=fill_containerxNone
+      - frame s16r3 [eX6tm] | size=fill_containerxNone
+    - frame s16btns [5GAk4] | size=fill_containerxNone
+      - frame s16go [XHeHw] | size=fill_containerx54
+      - frame s16home [PEeb7] | size=fill_containerx44
+
+=== 17_RankFriends (bwMjn) ===
+- frame 17_RankFriends [bwMjn] | size=375x812
+  - ref s17sb [YnrVp] | ref=J9Teq
+  - frame s17content [6HKr6] | size=fill_containerxfill_container
+    - frame s17head [DUoZj] | size=fill_containerxNone
+      - text  [8XWZT] | text='// leaderboard'
+      - text  [Y6Cpx] | text='排行榜'
+      - icon_font  [09IUr] | size=16x16
+    - frame s17tabs [Psyrt] | size=fill_containerxNone
+      - frame s17t1 [HIamH] | size=fill_containerx36
+      - frame s17t2 [60ltA] | size=fill_containerx36
+    - frame s17podium [oMSUz] | size=fill_containerx180
+      - frame s17p2 [wmmrG] | size=84xNone
+      - frame s17p1 [NKyXF] | size=84xNone
+      - frame s17p3 [73xZf] | size=84xNone
+    - frame s17list [ZHQqG] | size=fill_containerxNone
+      - ref s17r4 [N5E8m] | ref=dzG8j, size=fill_containerxNone
+      - ref s17r5 [FhPew] | ref=dzG8j, size=fill_containerxNone
+      - ref s17rMe [R2lwj] | ref=dzG8j, size=fill_containerxNone
+      - ref s17r6 [bIzxC] | ref=dzG8j, size=fill_containerxNone
+    - frame s17share [XHyC9] | size=fill_containerx50
+      - icon_font  [safk2] | size=16x16
+      - text  [pZnu9] | text='邀请好友挑战'
+  - ref s17tabbar [4tUlk] | ref=uOtf2
+
+=== 18_RankWorld (827LW) ===
+- frame 18_RankWorld [827LW] | size=375x812
+  - ref s18sb [cBMny] | ref=J9Teq
+  - frame s18content [9xVDQ] | size=fill_containerxfill_container
+    - frame s18head [f59Mn] | size=fill_containerxNone
+      - text  [9I1w7] | text='// world_ranking'
+      - text  [xTNh1] | text='排行榜'
+      - icon_font  [0H6dj] | size=16x16
+    - frame s18tabs [BtCqO] | size=fill_containerxNone
+      - frame s18t1 [SJQPP] | size=fill_containerx36
+      - frame s18t2 [GvRji] | size=fill_containerx36
+    - frame s18top [KFXv9] | size=fill_containerxNone
+      - icon_font  [n7JrW] | size=20x20
+      - frame s18topM [Nm5v3] | size=fill_containerxNone
+      - text  [ulz14] | text='第1,248名'
+    - frame s18list [l4CLE] | size=fill_containerxNone
+      - ref s18r1 [G9rJN] | ref=dzG8j, size=fill_containerxNone
+      - ref s18r2 [tWUbj] | ref=dzG8j, size=fill_containerxNone
+      - ref s18r3 [PxRIr] | ref=dzG8j, size=fill_containerxNone
+      - ref s18r4 [FKDYp] | ref=dzG8j, size=fill_containerxNone
+      - ref s18r5 [PJWSp] | ref=dzG8j, size=fill_containerxNone
+      - ref s18me [RF1Nn] | ref=dzG8j, size=fill_containerxNone
+  - ref s18tab [91XNG] | ref=uOtf2
+
+=== 19_Profile (3KjH1) ===
+- frame 19_Profile [3KjH1] | size=375x812
+  - ref s19sb [zeDsc] | ref=J9Teq
+  - frame s19content [gL8JA] | size=fill_containerxfill_container
+    - frame s19head [xbuDd] | size=fill_containerxNone
+      - text  [yDSwP] | text='// profile'
+      - text  [BEu2U] | text='我的'
+      - icon_font  [hizqA] | size=18x18
+    - frame s19user [z7oIv] | size=fill_containerxNone
+      - frame s19av [79TGM] | size=64x64
+      - frame s19um [9lMB2] | size=fill_containerxNone
+    - frame s19stats [T7J70] | size=fill_containerxNone
+      - frame s19st1 [tOXjk] | size=fill_containerxNone
+      - frame s19st2 [HPq4v] | size=fill_containerxNone
+      - frame s19st3 [Dnv1b] | size=fill_containerxNone
+    - frame s19vipCard [cUo8t] | size=fill_containerxNone
+      - frame  [IB6O0] | size=40x40
+      - frame s19vm [96nRg] | size=fill_containerxNone
+      - text  [WCdEH] | text='详情'
+    - frame s19rows [QznnZ] | size=fill_containerxNone
+      - frame s19row1 [G0N6v] | size=fill_containerxNone
+      - frame s19row2 [eznxy] | size=fill_containerxNone
+      - frame s19row3 [WaakN] | size=fill_containerxNone
+      - frame s19row4 [xKsoo] | size=fill_containerxNone
+      - frame s19row5 [1JSFk] | size=fill_containerxNone
+  - ref s19tab [rEgCE] | ref=uOtf2
+
+=== 20_Wrongbook (Gtcsb) ===
+- frame 20_Wrongbook [Gtcsb] | size=375x812
+  - ref s20sb [ByI6m] | ref=J9Teq
+  - frame s20content [MjTSM] | size=fill_containerxfill_container
+    - frame s20nav [pV8WM] | size=fill_containerxNone
+      - frame s20bk [mhM3S]
+      - text  [ajIRw] | text='错题本'
+      - text  [cd9Ds] | text='// review_queue'
+    - frame s20summary [LHlHt] | size=fill_containerxNone
+      - icon_font  [5cDpm] | size=22x22
+      - frame s20smM [WD5er] | size=fill_containerxNone
+      - frame s20smBtn [wUkgh]
+    - frame s20filter [7bhl9] | size=fill_containerxNone
+      - frame s20f1 [Kts86]
+      - frame s20f2 [MBUSf]
+      - frame s20f3 [KMAv8]
+    - frame s20list [1CX5u] | size=fill_containerxNone
+      - frame s20i1 [B5uUJ] | size=fill_containerxNone
+      - frame s20i2 [xWUno] | size=fill_containerxNone
+      - frame s20i3 [2hLrK] | size=fill_containerxNone
+
+=== 21_VIPDetail (8taa9) ===
+- frame 21_VIPDetail [8taa9] | size=375x812
+  - ref s21sb [ZjnMv] | ref=J9Teq
+  - frame s21content [x7Pvd] | size=fill_containerxfill_container
+    - frame s21nav [e3U5T] | size=fill_containerxNone
+      - frame s21bk [IaYYL]
+      - text  [Zkh5K] | text='我的会员'
+      - text  [4JDik] | text='// vip_state'
+    - frame s21hero [v14ij] | size=fill_containerxNone
+      - frame s21heroHead [XFiNE] | size=fill_containerxNone
+      - frame s21heroBar [vx1iK] | size=fill_containerx6
+      - frame s21heroInfo [DIQ9l] | size=fill_containerxNone
+    - frame s21benefit [H6Lcc] | size=fill_containerxNone
+      - text  [GFMnR] | text='会员权益'
+      - frame s21b1 [L9omP] | size=fill_containerxNone
+      - frame s21b2 [sv3zS] | size=fill_containerxNone
+      - frame s21b3 [tzmZE] | size=fill_containerxNone
+      - frame s21b4 [fBtVY] | size=fill_containerxNone
+    - frame s21actions [XFYZ7] | size=fill_containerxNone
+      - frame s21upgrade [VEk7d] | size=fill_containerx50
+      - frame s21order [FUnx0] | size=fill_containerx44
+
+=== 22_QuitConfirm (fSOuH) ===
+- frame 22_QuitConfirm [fSOuH] | size=375x812
+  - rectangle s22dim [fKdSl] | size=375x812
+  - ref s22sb [u7LdB] | ref=J9Teq
+  - frame s22modal [XPVTs] | size=300xNone
+    - frame  [CUOOk] | size=52x52
+      - icon_font  [28iSa] | size=26x26
+    - text  [sCuJB] | text='// confirm_quit'
+    - text  [ZTmlp] | text='确定要退出本局？'
+    - text  [buzNf] | text='当前得分 1,420 与连击 x14 将被放弃，本局消耗的免费额度不可退还。', size=fill_containerxNone
+    - frame s22sum [op66x] | size=fill_containerxNone
+      - frame s22su1 [zaoMp]
+      - frame s22su2 [DT3vU]
+      - frame s22su3 [V0i27]
+    - frame s22btns [ibaBV] | size=fill_containerxNone
+      - frame s22cancel [Lr4Aj] | size=fill_containerx46
+      - frame s22confirm [lRp0H] | size=fill_containerx46

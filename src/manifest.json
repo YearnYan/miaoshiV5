@@ -1,0 +1,17 @@
+{
+  "name": "秒视单词",
+  "appid": "__UNI__FLASHBLITZ_V2",
+  "description": "秒视单词 FlashBlitz 微信小程序",
+  "versionName": "2.0.0",
+  "versionCode": "200",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wx0000000000000000",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "enhance": true
+    },
+    "usingComponents": true
+  }
+}

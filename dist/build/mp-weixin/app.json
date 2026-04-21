@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/library/library",
+    "pages/game/game",
+    "pages/result/result",
+    "pages/paywall/paywall",
+    "pages/rank/rank",
+    "pages/profile/profile",
+    "pages/wrongbook/wrongbook",
+    "pages/vip/vip",
+    "pages/terms/terms",
+    "pages/privacy/privacy",
+    "pages/orders/orders",
+    "pages/library-search/library-search",
+    "pages/wrongbook-detail/wrongbook-detail",
+    "pages/difficulty/difficulty",
+    "pages/share-poster/share-poster",
+    "pages/pay-confirm/pay-confirm",
+    "pages/pay-success/pay-success"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#050806",
+    "backgroundTextStyle": "light"
+  },
+  "usingComponents": {}
+}

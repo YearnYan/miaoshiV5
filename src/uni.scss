@@ -1,0 +1,57 @@
+﻿:root {
+  --bg-main: #050806;
+  --bg-panel: #11151a;
+  --bg-elev: #171a1f;
+  --text-primary: #e8ffe8;
+  --text-secondary: #6e7a72;
+  --text-muted: #4a524e;
+  --accent-main: #1edc74;
+  --accent-glow: rgba(30, 220, 116, 0.4);
+  --state-warning: #f5a623;
+  --state-danger: #ff4d4f;
+  --state-info: #4a84ff;
+  --border-subtle: #27302b;
+  --border-accent: rgba(30, 220, 116, 0.3);
+  --overlay-dim: rgba(0, 0, 0, 0.8);
+  --font-mono: JetBrains Mono, Menlo, Consolas, monospace;
+  --font-sans: PingFang SC, Microsoft YaHei, sans-serif;
+}
+
+view,
+text,
+button,
+input,
+image {
+  box-sizing: border-box;
+}
+
+.pixel-screen {
+  position: relative;
+  width: 750rpx;
+  min-height: 1624rpx;
+  background: var(--bg-main);
+  overflow: hidden;
+}
+
+.pixel-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 750rpx;
+  height: 1624rpx;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.pixel-layer {
+  position: relative;
+  z-index: 3;
+  width: 750rpx;
+  min-height: 1624rpx;
+}
+
+.pixel-hotspot {
+  position: absolute;
+  z-index: 5;
+  background: transparent;
+}
