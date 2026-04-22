@@ -247,17 +247,20 @@ export default {
 .quota-track {
   position: absolute;
   left: 72rpx;
-  top: 1192rpx;
+  top: 1236rpx;
   width: 606rpx;
   height: 12rpx;
   border-radius: 999rpx;
   overflow: hidden;
   background: rgba(40, 46, 42, 0.9);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .quota-progress {
   height: 100%;
   background: linear-gradient(90deg, #1edc74, #65f3aa);
+  pointer-events: none;
 }
 </style>
 
